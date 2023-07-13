@@ -29,7 +29,7 @@ app.post('/',function(req,res){
     const url = "https://us21.api.mailchimp.com/3.0/lists/ee9ce75bb1"
     const options = {
         method : "POST",
-        auth : "sofonyas:005ae77d3473e4c8f6081704a849b9e5-us21"
+        auth : "sofonyas:4bc454474c53ea91ffc6808487f69671-us21"
     }
     const request = https.request(url,options,function(response){
         if(response.statusCode===200){
@@ -54,7 +54,7 @@ app.listen(process.env.PORT||3000,function(){
 })
 
 // API key 
-// 005ae77d3473e4c8f6081704a849b9e5-us21
+// 4bc454474c53ea91ffc6808487f69671-us21
 
 // Audience Key
 //ee9ce75bb1
